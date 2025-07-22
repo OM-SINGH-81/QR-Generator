@@ -1,26 +1,44 @@
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background: linear-gradient(135deg, #7cddea 0%, #79a08597 100%);
-  min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #2e2f2f 0%, black 100%);
+    min-height: 90vh;
+}
+
+h1 {
+    font-family: "roboto",Arial, Helvetica, sans-serif sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    text-align: center;
+    margin-bottom: 0rem;
+    color:white;
+    font-size: 2.5rem;
+    width: 60%;
+  margin-top: 0%;
+  
+  
+  
 }
 
 .container {
-  max-width: 800px;
-  margin:  40px auto;
-  background: #0b0b0b;
-  border-radius: 18px;
-  box-shadow: 0 8px 32px rgba(60, 72, 180, 0.15);
-padding: 0px 200px 100px 200px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  animation: fadeIn 1s ease;
+   width: 50%;
+    height: 50%;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    background: #0b0b0b;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgb(252, 252, 253);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 1s ease;
 }
 
 @keyframes fadeIn {
@@ -28,19 +46,22 @@ padding: 0px 200px 100px 200px;
   to { opacity: 1; transform: translateY(0); }
 }
 
-h1 {
-  margin-bottom: 1.5rem;
- text-align: center;
-  color: #acf0f6;
+
+.para {
+  color:wheat;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
+  width: 40%;
   letter-spacing: 1px;
-  font-weight: 700;
-  text-shadow: 0 2px 8px #101012;
+
 }
-.center-instantly{
-  color: #bac8ca;
-}
-p{
+.p2 {
   color: #badacd;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
 }
 
 form {
@@ -52,7 +73,7 @@ form {
 
 input[type="url"] {
   padding: 0.85rem 1rem;
-  border: 2px solid #0ee74f;
+  border: 2px solid #63e5d2;
   border-radius: 8px;
   font-size: 1rem;
   transition: border 0.2s, box-shadow 0.2s;
@@ -67,16 +88,17 @@ input[type="url"]:focus {
 
 button {
   padding: 0.85rem;
-  background: linear-gradient(90deg, #28dc08 0%, #22f1f4 100%);
-  color: #fff;
+  background: linear-gradient(90deg, #22d3ee 0%, #6366f1 100%);
+  color: #eceaef;
   border: none;
   border-radius: 8px;
   font-size: 1.05rem;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 2px 8px #a5b4fc44;
+  box-shadow: 0 2px 8px #d2d3d900;
   transition: background 0.2s, transform 0.1s;
   letter-spacing: 0.5px;
+  margin-top: 1rem;
 }
 button:hover {
   background: linear-gradient(90deg, #22f1f4 0%, #28dc08 100%);
@@ -98,7 +120,7 @@ button:hover {
   margin-top: 1rem;
 }
 .download-btn:hover {
-  background: linear-gradient(90deg, #6366f1 0%, #22d3ee 100%);
+  background: linear-gradient(90deg, #22f1f4 0%, #28dc08);
   transform: translateY(-2px) scale(1.03);
 }
 
@@ -141,8 +163,5 @@ button:hover {
   }
   #qr-result img {
     max-width: 95vw;
-  }
-  .center-instantly {
-    font-size: 1.2rem;
-  }
-} 
+  }}
+  

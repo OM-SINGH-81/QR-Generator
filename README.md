@@ -101,4 +101,4 @@ This project is open source and available under the [ISC License](../LICENSE) (o
 ---
 
 ## 📬 Feedback
-Feel free to open issues or pull requests for suggestions and improvements!
+Feel free to open issues or pull requests for suggestions and improvements! 

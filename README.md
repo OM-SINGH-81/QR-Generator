@@ -15,7 +15,7 @@ A modern, full-stack QR code generator web app. Instantly create and download QR
 
 ## 🖼️ Preview
 
-![App Screenshot](./frontend-preview.png) <!-- Add a screenshot if available -->
+![App Screenshot](./priview.png) <!-- Add a screenshot if available -->
 
 ---
 

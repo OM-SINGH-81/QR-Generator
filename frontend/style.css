@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(135deg, #2e2f2f 0%, black 100%);
+   background: linear-gradient(135deg, black 0%, rgb(5, 44, 24) 100%);
     min-height: 90vh;
 }
 
@@ -30,7 +30,7 @@ h1 {
     height: 50%;
     margin-left: 8rem;
     margin-right: 8rem;
-    background: #0b0b0b;
+   background:linear-gradient(135deg, black 0%, rgb(5, 55, 53) 100%);
     border-radius: 18px;
     box-shadow: 0 8px 32px rgb(252, 252, 253);
     padding: 40px;

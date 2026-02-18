@@ -1,0 +1,8 @@
+{
+    "type": "module",
+    "name": "qr-code-generator",
+    "version": "1.0.0",
+    "dependencies": {
+        "qr-image": "^3.2.0"
+    }
+}
